@@ -1,0 +1,21 @@
+name = Consult
+description = Presents a quiz with questions and dependent answers.
+core = 7.x
+package = brightday
+version = 7.x-1.0
+
+dependencies[] = backbone_library
+dependencies[] = entity
+dependencies[] = list
+
+files[] = includes/ConsultInterview.php
+files[] = includes/ConsultInterviewAdminUiController.php
+files[] = includes/ConsultInterviewController.php
+files[] = includes/ConsultInterviewSubEntityController.php
+files[] = includes/ConsultQuestion.php
+files[] = includes/ConsultQuestionController.php
+files[] = includes/ConsultResult.php
+files[] = includes/ConsultResultController.php
+
+; Tests
+files[] = tests/consult.interview.test
