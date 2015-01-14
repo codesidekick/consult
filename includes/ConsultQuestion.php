@@ -36,7 +36,7 @@ class ConsultQuestion extends ConsultInterviewSubEntity {
    *   The question text format.
    */
   public function getQuestionFormat() {
-    $question_format = FILTER_FORMAT_TEXT;
+    $question_format = 'plain_text';
 
     if (!empty($this->question['format'])) {
       $question_format = $this->question['format'];

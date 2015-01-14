@@ -22,12 +22,11 @@ class ConsultInterviewTestCase extends DrupalWebTestCase {
   /**
    * {@inheritdoc}
    */
-  public function getInfo() {
+  public static function getInfo() {
     return array(
       'name' => 'Consult interview',
       'description' => 'Tests Consult entities render correctly.',
       'group' => 'Consult',
-      'aibm' => TRUE,
     );
   }
 
