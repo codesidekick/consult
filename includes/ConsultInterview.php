@@ -356,4 +356,11 @@ class ConsultInterviewSubEntity extends Entity {
 
     return $value;
   }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function label() {
+    return check_plain(parent::label());
+  }
 }

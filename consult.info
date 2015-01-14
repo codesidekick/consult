@@ -4,7 +4,7 @@ core = 7.x
 package = brightday
 version = 7.x-1.0
 
-dependencies[] = backbone_library
+dependencies[] = backbone
 dependencies[] = entity
 dependencies[] = list
 
